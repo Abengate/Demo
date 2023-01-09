@@ -1,0 +1,127 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 20px 0;
+    /* background-color: aqua; */
+    border-bottom: 1px solid #b1191a;
+}
+
+.regest {
+    height: 500px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+.reg_nav {
+    background-color: #ececec;
+    border-bottom: 1px solid #ccc;
+}
+
+.regest .reg_nav h3 .deng {
+    float: right;
+    font-size: 10px;
+    /* background-color: #b1191a; */
+}
+
+.regest h3 {
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 5px;
+}
+
+.regest span a {
+    padding-right: 10px;
+    color: red;
+}
+
+.regest .refome {
+    width: 600px;
+    margin: 50px auto;
+}
+
+.refome .refome_center ul,
+li {
+    padding: 10px 0 5px 0;
+}
+
+.refome_center label {
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+}
+
+.refome_center ul li input {
+    width: 242px;
+    height: 37px;
+    line-height: 37px;
+    margin-left: 15px;
+    border: 1px solid;
+    padding-left: 10px;
+}
+
+.cuowu {
+    color: #b1191a;
+    font-size: 14px;
+}
+
+.cuowu::before {
+    content: '\e688';
+}
+
+.safe {
+    width: 350px;
+    height: 30px;
+    line-height: 30px;
+    text-align: right;
+    /* background-color: #b1191a; */
+}
+
+.safe img {
+    width: 10px;
+    height: 10px;
+}
+
+.agree {
+    margin-top: 20px;
+    padding-left: 106px;
+}
+
+.agree input {
+    vertical-align: middle;
+    margin-bottom: 2px;
+}
+
+.agree a {
+    color: rgb(27, 173, 225);
+}
+
+.btn-regist input {
+    width: 200px;
+    height: 30px;
+    background-color: #c81623;
+    font-size: 14px;
+    margin: 20px 0 0 120px;
+    color: #ffffff;
+}
+
+.mod_copyright {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.top {
+    margin-bottom: 15px;
+}
+
+.top a {
+    margin: 0 14px;
+}
+
+.bottom {
+    line-height: 20px;
+}
