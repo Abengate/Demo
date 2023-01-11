@@ -239,11 +239,55 @@ nav {
     line-height: 50px;
 }
 
-.focurs img {
-    margin: 10px 10px 10px 219px;
+.focurs {
+    position: relative;
+    width: 720px;
+    height: 452px;
+    margin-left: 220px;
+    margin-top: 10px;
+    /* background-color: red; */
     float: left;
+    overflow: hidden;
+}
+
+@keyframes picture {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(-2260px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.box_img {
+    position: absolute;
+    height: 452px;
+    width: 6000px;
+    margin: 0px auto;
+    font-size: 0px;
+    /*消除图片间隔*
+    /* background-color: #f7f7f7; */
+    animation: picture 25s linear infinite;
+}
+
+.box_img img {
+    width: 720px;
     height: 452px;
 }
+
+
+/* .box_img:first-child:first-child {
+    left: -720px;
+} */
+
+
+/*  */
+
+
+/*  */
 
 .newflash {
     float: right;
@@ -251,6 +295,7 @@ nav {
     border: 1px solid;
     margin-top: 10px;
     text-align: center;
+    margin-bottom: 10px;
 }
 
 .newflash .new_fast {
